@@ -20,11 +20,11 @@
 
 .quiz-answer-container {
   display: flex;
-  gap: 20px;
+  gap: 35px;
 }
 
 .quiz-answer {
-  padding: 12px;
+  padding: 8px 12px;
   background-color: rgba(140,30,255, 0.2);
   color: #8c1eff;
 }

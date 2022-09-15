@@ -22,10 +22,10 @@ section {
 }
 
 hr {
-  width: 3vw;
-  border: 5px dotted;
+  width: 60vw;
+  border: 1px;
   border-color : rgb(176, 176, 176);
-  border-style: none none dotted;
+  border-style: none none solid;
   position: relative;
   bottom: -10px;
 }
