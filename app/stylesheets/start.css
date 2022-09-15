@@ -6,7 +6,7 @@
   margin-top: 30vh;
 }
 
-.start-btn {
+.start-btn, .results-btn {
   padding: 12px;
   background-color: blueviolet;
   border: none;

@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  display: flex;
-  margin-top: 30vh;
+  padding: 13px
 }
 
 .quiz-btn {
   padding: 12px;
-  background-color: blueviolet;
+  background-color: #f222ff;
   border: none;
   color: white;
   margin: 24px auto;
@@ -16,4 +15,23 @@
 
 .quiz-qst {
   margin: 0 auto;
+  /* color: #ffd319; */
+}
+
+.quiz-answer-container {
+  display: flex;
+  gap: 20px;
+}
+
+.quiz-answer {
+  padding: 12px;
+  background-color: rgba(140,30,255, 0.2);
+  color: #8c1eff;
+}
+
+.quiz-answer:hover {
+  /* padding: 6px; */
+  background-color: rgba(140,30,255, 0.6);
+  color: white;
+  transition: 0.1s;
 }
