@@ -1,4 +1,5 @@
-/* @import "main.css"; */
+@import "start.css";
+@import "quiz.css";
 
 :root {
   --text: #222222;
@@ -9,7 +10,6 @@
 body {
   margin: 0;
   /* background-color: #0B2434; */
-  padding: 24px;
   font-family: 'Karla', sans-serif;
   display: flex;
   justify-content: center;
