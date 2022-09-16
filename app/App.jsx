@@ -6,6 +6,7 @@ export default function App() {
   const [startQuiz, setStartQuiz] = React.useState(false)
   const [startPage, setStartPage] = React.useState(true)
   const [questions, setQuestions] = React.useState([])
+  const [select, setSelected] = React.useState(false)
 
   function checkResults(){
     console.log("ciao")
