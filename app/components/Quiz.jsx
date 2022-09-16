@@ -49,10 +49,10 @@ export default function Quiz(props) {
 
   function holdAnswer(id) {
     setAllAnswers(prevAnswers => prevAnswers.map(answer => {
-      return (answer.id === id) ? ({...answer, held: !answer.held}) : answer
+      return (answer.id === id) ? ({...answer, held: !answer.held}) : ({...answer, held: false})
     }))
   }
-
+  console.log(allAnswers)
   return (
     <div className="quiz-container">
       <h3 className="quiz-qst">{props.question}</h3>
